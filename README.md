@@ -4,7 +4,7 @@ Signal Input: Input 1
 
 Demodulation Signal Output: Output 2
 
-Sweep data can be saved as into excel .xlsx files, or directly copied as plain test.
+Sweep data can be saved as into excel .xlsx files, or directly copied as plain text.
 
 Currently there is no input ranging settings (attenuation, impedance, coupling) because the capabilities of each moku is different. I can add support for this if it is requested.
 
