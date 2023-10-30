@@ -1,17 +1,25 @@
-# HP4294a Impedance Analyser Python GPIB Data Retrieval
+# Liquid Instruments Moku LIA Frequency Sweeper Utlity
 
-NOTE: The HP4294a does have a File Transfer Protocol (FTP) interface available through the LAN port. This is the best and easiest option by far to get files, I reccomend you try this option first. However, I couldn't get the LAN port to function on our system, so I wrote this program to pull data off. 
+PyQt/PyQTGraph GUI to sweep the driving frequency of the demodulating oscillator in the liquid instruments moku Lock-In Amplifier, record the response, and plot the result.
 
-Python GUI program to export saved data files from the internal memory of the HP4294A over a GPIB Interface.
+Signal Input: Input 1
 
-## File support
+Demodulation Signal Output: Output 2
 
-The HP4294A impedance analyser can save ASCII (.TXT), Binary (.DAT), PNG, and touchstone files. This python interface currently only decodes files saved as .TXT (ASCII) to a csv file.
+Sweep data can be saved as into excel .xlsx files, or directly copied as plain test.
 
-All other files save by the HP4294a IA are not decoded, and are dumped into a raw txt file as bytes. If it's requested I will add decoding support for other files.
+Currently there is no input ranging settings (attenuation, impedance, coupling) because the capabilities of each moku is different. I can add support for this if it is requested.
 
-## Requirements
+## Support
 
-Python 3.X, py-visa.
+Hardware: Tested on Moku: Go, and Moku: Pro. It should work on Moku lab also, but I haven't got access to the hardware to test it.
 
-Needs OS VISA driver (National Instruments for example)
+## External Requirements
+
+From Moku: 
+Moku command line interface, Mokucli: https://www.liquidinstruments.com/software/utilities/ 
+Moku python API: https://www.liquidinstruments.com/products/apis/
+
+Python:
+PyQt Graph, PyQt, Numpy, Pandas, Datetime
+
