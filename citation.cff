@@ -4,7 +4,7 @@ authors:
 - family-names: "Meffan"
   given-names: "Robert Claude"
   orcid: "https://orcid.org/0000-0002-5678-0953"
-title: "hp4294a-IA-GPIB"
+title: "Moku Python Sweeper Utility"
 version: 1.0.1
-date-released: 2022-01-31
-url: "https://github.com/claudemeffan/hp4294a-IA-GPIB"
+date-released: 2023-10-30
+url: "https://github.com/claudemeffan/Moku_python_Sweeper_Utility"
