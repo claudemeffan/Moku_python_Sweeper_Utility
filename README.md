@@ -1,4 +1,4 @@
-# Liquid Instruments Moku LIA Frequency Sweeper Utlity
+<img width="960" alt="Screenshot 2023-10-26 at 12 11 45 PM" src="https://github.com/claudemeffan/Moku_python_Sweeper_Utility/assets/85162202/f9f9180a-cffc-41a8-b754-ed99544f54b3"># Liquid Instruments Moku LIA Frequency Sweeper Utlity
 
 PyQt/PyQTGraph GUI to sweep the driving frequency of the demodulating oscillator in the liquid instruments moku Lock-In Amplifier, record the response, and plot the result.
 
@@ -9,6 +9,9 @@ Demodulation Signal Output: Output 2
 Sweep data can be saved as into excel .xlsx files, or directly copied as plain test.
 
 Currently there is no input ranging settings (attenuation, impedance, coupling) because the capabilities of each moku is different. I can add support for this if it is requested.
+
+<img width="995" alt="screenshot" src="https://github.com/claudemeffan/Moku_python_Sweeper_Utility/assets/85162202/bdf3c6bf-c735-4989-9e8d-728fc25b71cb">
+
 
 ## Support
 
